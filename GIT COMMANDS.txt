@@ -1,0 +1,20 @@
+git log
+git status
+
+
+---Archivos:
+git add .
+git commit - m "nombre-del-commit"
+
+---Crear ramas:
+git branch -c <nombre-de-la-rama> //CREAR RAMA
+git branch -d <nombre-de-la-rama>  //BORRAR
+git branch //VER RAMAS
+git switch <nombre-de-la-rama> //CAMBIAR RAMA
+
+git checkout <codigo-commit> //Volver atras
+
+
+---GITHUB:
+git remote add origin https://github.com/Feelis3/RepositorioGIT.git
+git push origin master(o nombre de la rama)
